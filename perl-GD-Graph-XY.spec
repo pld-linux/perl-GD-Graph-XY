@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	GD
-%define	pnam	Graph-XY
+%define		pdir	GD
+%define		pnam	Graph-XY
 Summary:	GD::Graph::XY Perl module - XY graphing modules for GD::Graph
 Summary(pl):	Modu³ Perla GD::Graph::XY - modu³y do wykresów XY dla GD::Graph
 Name:		perl-GD-Graph-XY
