@@ -28,7 +28,7 @@ Ten pakiet zawiera trochê modu³ów do wykresów XY dla GD::Graph.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
