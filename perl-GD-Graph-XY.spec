@@ -5,7 +5,7 @@ Summary:	GD::Graph::XY Perl module - XY graphing modules for GD::Graph
 Summary(pl):	Modu³ Perla GD::Graph::XY - modu³y do wykresów XY dla GD::Graph
 Name:		perl-GD-Graph-XY
 Version:	0.92
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
