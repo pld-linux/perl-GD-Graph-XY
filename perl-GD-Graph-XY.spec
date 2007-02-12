@@ -2,7 +2,7 @@
 %define		pdir	GD
 %define		pnam	Graph-XY
 Summary:	GD::Graph::XY Perl module - XY graphing modules for GD::Graph
-Summary(pl):	Modu≥ Perla GD::Graph::XY - modu≥y do wykresÛw XY dla GD::Graph
+Summary(pl.UTF-8):   Modu≈Ç Perla GD::Graph::XY - modu≈Çy do wykres√≥w XY dla GD::Graph
 Name:		perl-GD-Graph-XY
 Version:	0.92
 Release:	3
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains some XY graphing modules for GD::Graph.
 
-%description -l pl
-Ten pakiet zawiera trochÍ modu≥Ûw do wykresÛw XY dla GD::Graph.
+%description -l pl.UTF-8
+Ten pakiet zawiera trochƒô modu≈Ç√≥w do wykres√≥w XY dla GD::Graph.
 
 %prep
 %setup -q -n %{pdir}%{pnam}-%{version}
