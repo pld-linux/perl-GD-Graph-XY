@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	GD
 %define		pnam	Graph-XY
+%include	/usr/lib/rpm/macros.perl
 Summary:	GD::Graph::XY Perl module - XY graphing modules for GD::Graph
 Summary(pl.UTF-8):	Moduł Perla GD::Graph::XY - moduły do wykresów XY dla GD::Graph
 Name:		perl-GD-Graph-XY
@@ -11,9 +11,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	58534781f38657f1cb30d2739b9cb1bf
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/GD-Graph-XY/
 BuildRequires:	perl-GD >= 1.18
 BuildRequires:	perl-GD-Graph >= 1.30
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
